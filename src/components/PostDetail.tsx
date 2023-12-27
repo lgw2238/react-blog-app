@@ -1,4 +1,6 @@
-export default function PostDetail () {
+
+
+export default function PostDetailComponent () {
 
 
     return (
