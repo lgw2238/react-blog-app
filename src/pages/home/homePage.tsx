@@ -10,7 +10,7 @@ export default function homePage() {
         <>
         <Header />
         <Carousel />
-        <PostList hasNavigation={false} />
+        <PostList hasNavigation={true} />
         <Footer />
         </>
     );

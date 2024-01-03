@@ -8,7 +8,7 @@ export default function PostsPage (){
     return (
         <>
         <Header />
-        <PostList hasNavigation={false} />
+        <PostList hasNavigation={true} />
         <Footer />          
         </>
 

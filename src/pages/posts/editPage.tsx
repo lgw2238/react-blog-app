@@ -1,5 +1,14 @@
-export default function editPage (){
 
+import Header from "../../components/Header";
+import NewPosts from "../../components/PostForm";
 
-    return <h2> editPage </h2>;
+export default function PostEdit() {
+
+    return (
+        <>
+        <Header />
+        <NewPosts />
+        </>
+    );
+
 }
